@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Que2_js_104</title>
+        <script type="text/javascript">
+           var no1=parseInt(prompt("Enter 1st number For Operation"));
+           var no2=parseInt(prompt("Enter 2st number For Operation"));
+           var Operator=prompt("Enter Operator + - * / ");
+           var op;
+           switch (Operator) 
+           {
+                case '+':
+                    op=no1+no2;
+                    alert("Addition : "+op);
+                    break;
+                case '-':
+                   op=no1-no2;
+                   alert("Subtraction : "+op);
+                   break;
+                case '*':
+                   op=no1*no2;
+                   alert("Multiplication : "+op);
+                   break; 
+                case '/':
+                   op=no1/no2;
+                   alert("Division : "+op);
+                   break;  
+                default:
+                    alert("InValid Operator! ");
+           }
+        </script>
+    </head>
+</html>
